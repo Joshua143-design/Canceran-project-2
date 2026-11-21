@@ -2238,11 +2238,22 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+/* KCC Header Logo */
+.header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
-  
+.header .logo img {
+  max-height: 100px;
+  width: auto;
+  margin-right: 5px;
+}
+
+.header .logo h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  color: #c6a04f;
 }
